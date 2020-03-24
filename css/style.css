@@ -1,0 +1,135 @@
+@font-face {
+  src: url(../fonts/TiemposHeadline-Regular.ttf);
+  font-family: TiemposHeadline-Regular;
+}
+@font-face {
+  src: url(../fonts/TiemposHeadlineWeb-Bold.ttf);
+  font-family: TiemposHeadlineWeb-Bold;
+}
+@font-face {
+  src: url(../fonts/TiemposHeadlineWeb-RegularItalic.ttf);
+  font-family: TiemposHeadlineWeb-RegularItalic;
+}
+
+* {
+  font-family: TiemposHeadline-Regular;
+}
+
+/* index.html */
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image1 {
+  background: url(../img/image1.jpg); 
+  background-size: cover;
+}
+
+.carousel-image2 {
+  background: url(../img/image2.jpg);
+  background-size: cover;
+}
+
+.carousel-image3 {
+  background: url(../img/image3.jpg);
+  background-size: cover;
+}
+
+.carousel-image4 {
+  background: url(../img/image4.jpg);
+  background-size: cover;
+}
+
+.carousel-image5 {
+  background: url(../img/image5.jpg);
+  background-size: cover;
+}
+
+@media {
+  max-width: 2000px;
+}
+
+.card-body img {
+  padding-bottom: 5%;
+}
+
+.card-body a {
+  color: #444;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  color: grey;
+}
+
+/* community.html */
+
+.card-img-top {
+  width: 60%;
+  height: 100%;
+
+}
+
+.card {
+  flex-direction: row;
+  
+}
+
+.pagination {
+ 
+}
+
+/* register.html */
+
+#home-section {
+  background: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  padding: 3%;
+}
+
+.form-check-label {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.form-check-input {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* chat.html */
+
+.chat-body {
+  height: 300px;
+  border: 1px solid grey;
+}
+
+#messages {
+  overflow:scroll;
+  padding:10px;
+}
+
+
+/* about.html */
+
+.contacts{
+  padding-top: 5%;
+}
+
+.nav{
+  margin-top: 1%;
+}
